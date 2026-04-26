@@ -63,9 +63,9 @@ Obtenir l'accès "root" sur Android signifie acquérir les privilèges super-uti
 ---
 
 ## 6. Fiche Environnement et Traçabilité
-
+<img width="1276" height="573" alt="image" src="https://github.com/user-attachments/assets/ea3a2e51-ca66-418c-baab-802706996f9c" />
 * **Version Android / API :** Android 9.0 / API 28 (x86)
-* **Résultat `adb devices` :** `emulator-5554 device` *(Capture d'écran à joindre)*
+* **Résultat `adb devices` :** `emulator-5554 device` 
 * **Vérification Root (`adb shell id`) :** `uid=0(root) gid=0(root) groups=0(root),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid)`
 * **État Verified Boot (`ro.boot.verifiedbootstate`) :** `orange` (Intégrité compromise en raison du déverrouillage pour le root).
 
@@ -84,9 +84,3 @@ Obtenir l'accès "root" sur Android signifie acquérir les privilèges super-uti
 - [x] Reset effectué (Wipe data AVD via Android Studio Device Manager).
 - [x] Aucun compte personnel n'a été utilisé durant la session.
 - [x] Rapport et traçabilité sauvegardés.
-
-**Preuve du Reset :** *(Insérer ici la capture d'écran de l'assistant de configuration initial / écran de bienvenue Android)*
-
-```
-
-Ton rapport est nickel et très pro ! N'oublie juste pas de glisser 2 ou 3 captures d'écran (le terminal pour le root et l'écran de ton tél remis à zéro) pour valider tes preuves. Si tu as d'autres questions sur le lab ou sur les tests Android en général, je suis dispo !
