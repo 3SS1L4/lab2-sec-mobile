@@ -1,6 +1,6 @@
 # Rapport de Lab 2 : Rooting Android et Analyse de Sécurité
 
-**Date :** 26 Avril 2026  
+**Date :** 25 Avril 2026  
 **Auteur :** AMSOU ISMAIL
 
 ---
